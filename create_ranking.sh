@@ -9,7 +9,7 @@ while read -r url; do
 done < ../list_of_sources.txt
 
 cat $DIR/start.html > $DESTINATION_PAGE 
-grep -o -h "\"[^\"]*ranked number.*\"" * | sed 's/\"//g'  |  sed 's/\(^.*\) is ranked number\(.*\) in the.*/<\/td><td><a href=\"http:\/\/\1\">\1<\/a><\/td><td>\2<\/td><td><\/td><\/tr>/' > thelist.txt 
+grep -o  "<img.*Global rank.*" * | sed -e 's/<[^>]*>//g' |  sed 's/\(^.*\):\(.*\)/<\/td><td><a href=\"http:\/\/\1\">\1<\/a><\/td><td> \2 <\/td><td><\/td><\/tr>/' > thelist.txt 
 cat thelist.txt | sort -n -k 3 | head -n 60 > thelist2.txt
 cat thelist2.txt | nl | sed 's/^/<tr><td>/g' >> $DESTINATION_PAGE
 echo "</table><br> Ranking last updated at: " >> $DESTINATION_PAGE

@@ -1,3 +1,4 @@
+XXXhttp://bufferapp.com
 http://99u.com
 http://abundance-blog.marelisa-online.com
 http://advancedlifeskills.com
@@ -6,7 +7,6 @@ http://alphaefficiency.com
 http://blackbeltproductivity.net
 http://bobstanke.com
 http://braincutlery.co.uk
-http://bufferapp.com
 http://craigharper.com.au
 http://crankingwidgets.com
 http://creatingabetterlife.net
@@ -100,7 +100,6 @@ http://www.fourhourworkweekdiary.com
 http://www.fourhourworkweekjournal.com
 http://www.geardiary.com
 http://www.genuinecuriosity.com
-http://www.getrichslowly.org
 http://www.gettingfinancesdone.com
 http://www.gtdtimes.com
 http://www.hillaryrettig.com
@@ -110,8 +109,6 @@ http://www.keyorganization.com
 http://www.legalandrew.com
 http://www.legalproductivity.com
 http://www.lifeclever.com
-http://www.lifehack.org
-http://www.lifehacker.com
 http://www.lifehacker.com.au
 http://www.lifeoptimizer.org
 http://www.lifereboot.com
@@ -128,7 +125,6 @@ http://www.passionmeetspurpose.com
 http://www.penelopetrunk.com
 http://www.persistenceunlimited.com
 http://www.personaldevelopment.ie
-http://www.pickthebrain.com
 http://www.pluginid.com
 http://www.positivityblog.com
 http://www.productiveflourishing.com
