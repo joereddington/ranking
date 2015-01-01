@@ -1,10 +1,11 @@
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-DESTINATION_PAGE=/home/joereddington/joereddington.com/rankingProd.htmll
+DESTINATION_PAGE=/home/joereddington/joereddington.com/rankingProd.html
 cd $DIR
 rm $DIR/sources/*
 cd sources
 while read -r url; do 
  wget -O "${url##http://}" "http://www.alexa.com/siteinfo/$url"
+ sleep 5
 done < ../list_of_sources.txt
 
 cat $DIR/start.html > $DESTINATION_PAGE 
