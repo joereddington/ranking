@@ -11,7 +11,7 @@ http://craigharper.com.au
 http://crankingwidgets.com
 http://creatingabetterlife.net
 http://creatingpersonalflow.com
-http://dailyplanit.wordpress.com
+#http://dailyplanit.wordpress.com
 http://davidseah.com
 http://dougbelshaw.com
 http://en.onsoftware.com
@@ -20,7 +20,7 @@ http://facilethings.com/en
 http://freakishlyproductive.com
 http://getrichslowly.org
 http://gtd.marvelz.com
-http://happiness-project.com
+#http://happiness-project.com
 http://hdbizblog.com
 http://howtosplitanatom.com
 http://hwebbjr.typepad.com/openloops
@@ -55,7 +55,7 @@ http://personalexcellence.co
 http://personalmba.com
 http://pickthebrain.com
 http://positivesharing.com
-http://productivemagazine.com
+#http://productivemagazine.com
 http://productivityist.com
 http://productivitymentor.com
 http://productivitytheory.com
@@ -64,12 +64,12 @@ http://ririanproject.com
 http://sourcesofinsight.com
 http://stevespring.org
 http://tabletproductive.com
-http://thegrowinglife.com
+#http://thegrowinglife.com
 http://theproductivitypro.typepad.com
 http://thinksimplenow.com
 http://timetricks.blogspot.com
 http://tinybuddha.com
-http://unclejoesleadershipblog.com
+#http://unclejoesleadershipblog.com
 http://unclutterer.com
 http://westxdesign.com
 http://workflowing.net
@@ -101,7 +101,7 @@ http://www.fourhourworkweekjournal.com
 http://www.geardiary.com
 http://www.genuinecuriosity.com
 http://www.gettingfinancesdone.com
-http://www.gtdtimes.com
+#http://www.gtdtimes.com
 http://www.hillaryrettig.com
 http://www.ismckenzie.com
 http://www.jonathanfields.com
@@ -121,7 +121,7 @@ http://www.myliferoi.com
 http://www.neatliving.net
 http://www.nerdfitness.com
 http://www.organizeit.co.uk
-http://www.passionmeetspurpose.com
+#http://www.passionmeetspurpose.com
 http://www.penelopetrunk.com
 http://www.persistenceunlimited.com
 http://www.personaldevelopment.ie
@@ -130,7 +130,7 @@ http://www.positivityblog.com
 http://www.productiveflourishing.com
 http://www.productivesuperdad.com
 http://www.productivity501.com
-http://www.productivitycafe.com
+#http://www.productivitycafe.com
 http://www.productivitygoal.com
 http://www.rightattitudes.com
 http://www.scottberkun.com
@@ -145,13 +145,13 @@ http://www.stevepavlina.com
 http://www.successbeginstoday.org/
 http://www.successsoul.com
 http://www.technotheory.com
-http://www.thedailysaint.com
+#http://www.thedailysaint.com
 http://www.theproductivitypro.com
 http://www.thesimpledollar.com
 http://www.thinkproductive.co.uk
 http://www.timemanagementninja.com
 http://www.todayisthatday.com
-http://www.webworkerdaily.com
+#http://www.webworkerdaily.com
 http://www.whatsthenextaction.com
 http://www.wisebread.com
 http://zenhabits.net
