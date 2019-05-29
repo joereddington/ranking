@@ -98,6 +98,7 @@ def process_content(content, fname):
                     a=re.match('^([0-9]*,.*) .*</strong.*',line)
                     rank= int(a.group(1).strip().replace(',',''))
                    # print "<tr><td><a href=\"http://{}\">\1</a></td><td>{}</td><td></td></tr>".format(fname[10:],rank)
+		    fname=fname[:-12]
                     return (fname[39:],rank)
 
         return (fname[10:], 999999999999)#If the site hasn't got a rank
@@ -124,7 +125,7 @@ def all_sessions_in_folder():
         for port in glob.glob("/home/joereddington/topBlogs/top60auto/*.*"):
                 sessions.append(process_project_file(port))
         sessions.sort(key=lambda x: x[1])
-        hope =sessions[:100]
+        hope =sessions[:60]
         rank=0
         for x in hope:
             rank+=1
