@@ -1,4 +1,4 @@
-http://www.alexa.com/siteInfo/http://www.yankitchan.me?ver=classic
+https://www.alexa.com/siteinfo/yankitchan.me
 https://www.alexa.com/siteinfo/notebookofaneckbreather.blogspot.com?ver=classic
 https://www.alexa.com/siteinfo/quadlifeblog.com?ver=classic
 https://www.alexa.com/siteinfo/thehappyhearingaid.wordpress.com?ver=classic
@@ -299,7 +299,6 @@ http://www.alexa.com/siteinfo/www.alainakylestevenson.blogspot.com?ver=classic
 http://www.alexa.com/siteinfo/www.apaceofchange.com?ver=classic
 http://www.alexa.com/siteinfo/www.autism-blog.net?ver=classic
 http://www.alexa.com/siteinfo/www.autismradiouk.co.uk?ver=classic
-http://www.alexa.com/siteinfo/www.bbc.co.uk?ver=classic
 http://www.alexa.com/siteinfo/www.blacktelephone.com?ver=classic
 http://www.alexa.com/siteinfo/www.bluebadgeabuse.blogspot.com?ver=classic
 http://www.alexa.com/siteinfo/www.brylfamily5.blogspot.com?ver=classic

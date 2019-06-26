@@ -91,15 +91,23 @@ def get_timevalues(content):
         return timevalues
 
 
+def ranking_from_line(line):
+	match_text= '^.*#</span>(.*)'
+	if re.match(match_text,line):
+           a=re.match(match_text,line)
+           rank= int(a.group(1).strip().replace(',',''))
+           return rank
+	return -1
+
+
+
 def process_content(content, fname):
         sessions = []
         for line in content:
-                if re.match('^([0-9]*,.*) .*</strong.*',line):
-                    a=re.match('^([0-9]*,.*) .*</strong.*',line)
-                    rank= int(a.group(1).strip().replace(',',''))
-                   # print "<tr><td><a href=\"http://{}\">\1</a></td><td>{}</td><td></td></tr>".format(fname[10:],rank)
+		ranking=ranking_from_line(line)
+                if ranking>1:
 		    fname=fname[:-12]
-                    return (fname[39:],rank)
+                    return (fname[39:],ranking)
 
         return (fname[10:], 999999999999)#If the site hasn't got a rank
 
@@ -125,11 +133,11 @@ def all_sessions_in_folder():
         for port in glob.glob("/home/joereddington/topBlogs/top60auto/*.*"):
                 sessions.append(process_project_file(port))
         sessions.sort(key=lambda x: x[1])
-        hope =sessions[:60]
+        hope =sessions[:100]
         rank=0
         for x in hope:
             rank+=1
-            print "<tr><td>{}</td><td><a href=\"http://{}\">{}</a></td><td>{}</td><td></td></tr>".format(rank,x[0],x[0],x[1])
+            print "<tr><td>{}</td><td><a href=\"http://{}\">{}</a></td><td>{:,}</td><td></td></tr>".format(rank,x[0],x[0],x[1])
 
 
 
@@ -205,4 +213,5 @@ def graph_out(sesssions):
 
 
 # sessions=process_project_file(vision_dir+"2017-04-01-tmc50private.md", [])
-all_sessions_in_folder()
+if __name__ =="__main__":
+	all_sessions_in_folder()
